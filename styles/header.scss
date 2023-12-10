@@ -1,0 +1,11 @@
+@import "vars";
+
+header{
+    border-bottom: 1px solid rgb(200,200,200);
+    box-shadow: 0 4px 2px -2px $primary;
+    padding: 40px 0px;
+}
+
+header h1{
+    color: rgb(20,20,20);
+}

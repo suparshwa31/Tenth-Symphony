@@ -1,0 +1,54 @@
+@import "vars";
+
+main{
+    height: 100%;
+    flex:1;
+    width: 100%;
+
+    .duration{
+        width: 50px;
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 20px;
+        border: 1px solid $secondary;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .search{
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 10px;
+        .hint{
+            margin-bottom: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .search-input{
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid $secondary;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: sans-serif;
+            width: 400px;
+            outline: none;
+        }
+
+        .search-button{
+            cursor: pointer;
+            border: 1px solid;
+            background-color: $primary;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            font-size: 16px;
+        }
+
+        .loading-image{
+            width: 200px;
+            margin-bottom: 10px;
+        }
+    }
+}

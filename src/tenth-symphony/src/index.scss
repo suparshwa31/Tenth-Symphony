@@ -1,0 +1,54 @@
+@import "./styles/_vars.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#root, .app{
+  height: 100%;
+  width: 100%;
+}
+.flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.p-10{
+  padding: 10px;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.label-hint{
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  color: gray;
+}
